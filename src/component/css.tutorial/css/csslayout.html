@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+
+        background-color: aliceblue;
+        display: flex;
+       justify-content: center;
+       align-items: center;
+       
+        
+    }
+    .container{
+        background-color: azure;
+   
+      width: 1000px;
+        border: 2px solid black;
+        display: grid;
+         justify-content: center;
+        /* align-items:center; */
+        grid-template-columns: repeat(4,1fr);
+        grid-template-rows: 100px 200px 200px 100px;
+        grid-gap: 50px;
+      
+    }
+   .navclass{
+    background-color: aqua;
+    grid-column: 1/5;
+    grid-row: 1/2;
+    display: grid;
+    justify-items: center;
+   
+  
+   }
+   .asideclass{
+    background-color: bisque;
+    grid-area: 2/1/4/2;
+   }
+    .footerclass{
+        background-color: aquamarine;
+        grid-area: 4/1/5/5;
+    }
+    .box1{
+        background-color: bisque;
+
+    }
+    .box2{
+        background-color: aqua;
+    }
+    .box3{
+        background-color: brown;
+    }
+    .mainclass
+{
+    background-color: blueviolet;
+    grid-area: 3/2/4/5;
+}
+@media only screen and (max-width :500px) {
+
+.box1{
+    width: 100%;
+}
+}
+
+
+    </style>
+</head>
+<body>
+  
+    <main class="container">
+<nav class="navclass">header</nav>
+
+       <aside class="asideclass">side</aside>
+        <article class="box1">box1</article>
+        <article class="box2">box2</article>
+    
+        <article class="box3">box3</article>
+    
+         <section class="mainclass">section</section>
+            <footer class="footerclass">footer</footer>
+
+    
+    </main>
+    
+
+    
+</body>
+</html>

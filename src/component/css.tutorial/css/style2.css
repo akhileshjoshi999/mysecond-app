@@ -1,0 +1,22 @@
+ body{ 
+font-family: 'Roboto', sans-serif;
+}
+[alt~="pw"]{
+    background-color: rebeccapurple;
+}
+main p{
+  background-color: red;
+}
+h1>p{
+    color:rgb(28, 69, 104);
+}
+section +p{
+    color: aquamarine;
+}
+section ~p{
+    color: rgb(255, 0, 200);
+}
+.text{
+    text-align: justify;
+    text
+}

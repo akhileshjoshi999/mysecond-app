@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+.hello:hover{
+    background-color: red;
+    font-weight: 900;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+    input:focus{
+      background-color:rgb(64, 0, 255);
+      color:red;
+
+
+    }
+a:first-child{
+    background-color: rgb(156, 27, 27);
+}
+a:nth-child(odd){
+    background-color: aqua;
+}
+p::first-letter{
+    background-color: blue;
+}
+p::after{
+    content:"akhl"
+}
+ul li::marker{
+    color: red;
+}
+</style>
+</head>
+<body>
+    <p class="hello">hey i am trying hover in html</p>
+    <p>hey i am trying hover in html</p>
+    <input type="text">
+     <nav>
+<!-- nav is a parent and achor tag is child -->
+<a href="www.google.com">google</a>
+<a href="www.google.com">google</a>
+<a href="www.google.com">google</a>
+<a href="www.google.com">google</a>
+    </nav>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti, neque?</p>
+    <ul class="uls">
+        <li>one </li>
+        <li>two </li>
+        <li>three</li>
+    </ul>
+</body>
+</html>

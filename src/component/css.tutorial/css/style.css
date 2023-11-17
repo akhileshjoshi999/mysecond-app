@@ -1,0 +1,56 @@
+body{
+    color: rgb(10, 31, 49);
+}
+.one{
+    color:rgb(14, 14, 224);
+}
+#two{
+    color: brown;
+}
+.border{
+    border: 5px solid rebeccapurple;
+    text-align: center;
+    font-size: 20px;
+    color: aqua;
+    text-decoration:double;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 50px;
+    padding: 100px;
+}
+p:hover{
+    border: 2px solid red;
+    background-color: aliceblue;
+    font-size: 20px;
+    color: blueviolet;
+    text-align: center;
+}
+
+.item{
+    width: 50px;
+    height: 50px;
+font-size: 20px;
+}
+.one{
+    color: aqua;
+    background-color: blue;
+    border: 5px solid;
+}
+.two{
+    color: rgb(5, 4, 22);
+    background-color: red;
+    border: 5px solid;
+}
+    .three{
+        color: rgb(7, 23, 23);
+        background-color:yellow;
+        border: 5px solid;
+    }
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    /* flex-direction: row; */
+    /* justify-content: space-evenly; */
+    align-items:center;
+    gap: 10px;
+  
+}

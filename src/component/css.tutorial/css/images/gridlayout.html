@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>websitelayout</title>
+    <style>
+        body{
+            height: 1200px;
+            background-color: rgb(217, 157, 157);
+            justify-content: center;
+     
+
+        }
+        main{
+           width: 1200px; 
+display: grid;
+grid-template-columns: repeat(4,1fr);
+grid-template-rows: 100px 200px 200px 100px;
+grid-gap: 20px;
+
+        }
+        nav{
+            background-color: rgb(13, 94, 94);
+         grid-row: 1/2;
+            grid-column: 1/-1;
+            color: rgb(75, 9, 9);
+          
+           font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+           color: rgb(223, 243, 222);
+        }
+        aside{
+            background-color: rgb(48, 67, 84);
+            grid-row: 2/4;
+        }
+        .box1{
+            background-color: bisque;
+        }
+        .box2{
+            background-color: rgb(202, 255, 196);
+        }
+        .box3{
+            background-color: rgb(133, 95, 49);
+        }
+        section{
+            background-color: blue;
+            grid-column: 2/-1;
+        }
+        footer{
+            background-color: cadetblue;
+            grid-column: 1/-1;
+        }
+    </style>
+</head>
+<body>
+    <main>
+<nav>navbar</nav>
+<aside></aside>
+<!-- article.box$*3 -->
+<article class="box1">box1</article>
+<article class="box2">box2</article>
+<article class="box3">box3</article>
+<section>main content</section>
+<footer>footer</footer>
+    </main>
+</body>
+</html>
